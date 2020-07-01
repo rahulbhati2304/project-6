@@ -1,0 +1,36 @@
+/*Selector{
+	Property: value;
+}*/
+*{
+	text-align: right;
+}
+body{
+   background-image: url(https://images.unsplash.com/photo-1590275036297-40f070de4b1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+   background-size: cover;
+}
+h2  + p{
+	color: black;
+	text-align: center;
+	border: 5px solid purple;
+	cursor: pointer;
+}
+
+p{
+	text-transform: uppercase;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 130%;
+	font-family: "Times New Roman";
+}
+li{
+	list-style: none;
+}
+.webtext{
+	border: 5px dashed green;
+}
+.y{
+	color: red ;
+}
+#div1{
+	background: rgba(0,0,255,0.2);
+}
